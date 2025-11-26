@@ -37,7 +37,7 @@ LogiTrack aims to eliminate manual communication gaps, reduce delays, and bring 
 > *(Attach screenshots inside this gallery)*
 
 <p align="center">
-  <img src="YOUR_IMAGE" width="240">
+  <img src="https://drive.google.com/drive/home" width="240">
   <img src="YOUR_IMAGE" width="240">
   <img src="YOUR_IMAGE" width="240">
 </p>
