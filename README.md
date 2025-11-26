@@ -1,114 +1,152 @@
+<!-- ========================================================= -->
+<!-- 🔥 BANNER SECTION -->
+<!-- ========================================================= -->
+
 <p align="center">
-  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/external-logistics-transportation-industry-flaticons-lineal-color-flat-icons.png" width="120"/>
+  <img src="https://i.imgur.com/waxVImv.png" width="100%" />
 </p>
 
 <h1 align="center">🚚 LogiTrack – Android Logistics Management App</h1>
-<h3 align="center">A Smart, Secure & Role-Based Logistics Platform built using Kotlin + Firebase + OSM</h3>
+<h3 align="center">A Smart, Secure & Role-Based Logistics Platform built using Kotlin, Firebase & OSM</h3>
 
 <p align="center">
-  <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/></a>
-  <a href="https://firebase.google.com/"><img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/Android-34A853?style=for-the-badge&logo=android&logoColor=white"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/OpenStreetMap-7CB342?style=for-the-badge&logo=openstreetmap&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Android-34A853?style=for-the-badge&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenStreetMap-7CB342?style=for-the-badge&logo=openstreetmap&logoColor=white"/>
 </p>
 
 ---
 
-## ✨ **Overview**
+<!-- ========================================================= -->
+<!-- 🌈 ANIMATED GIF PREVIEW -->
+<!-- ========================================================= -->
 
-**LogiTrack** is a modern Android app that connects **Logistic Owners** and **Vehicle Owners** in a unified digital platform.  
-It handles:
+## 🎥 Live Preview (GIF)
+
+<p align="center">
+  <img src="YOUR_GIF_PREVIEW_HERE.gif" width="300" style="border-radius:15px;"/>
+</p>
+
+> 💡 *You can screen-record your app using your phone → export as GIF → upload → replace the link.*  
+
+---
+
+<!-- ========================================================= -->
+<!-- ✨ OVERVIEW -->
+<!-- ========================================================= -->
+
+## ✨ Overview
+
+**LogiTrack** is a modern logistics app that bridges the communication gap between **Logistic Owners** and **Vehicle Owners**.  
+It provides:
 
 - 🔐 Secure Google Authentication  
-- 👥 Strict Role Selection  
-- 🚛 Load Posting & Verification  
-- 🧭 Map Routing with OpenStreetMap  
-- 🔍 Smart Search (city/state filters)  
+- 👑 Strict Role-Based Access  
+- 🚛 Load Creation & Verification  
+- 🔍 Smart Search by State/City  
 - 🛒 Cart for Vehicle Owners  
-- 📊 Firebase-powered Dashboard Analytics  
-- 👤 Profile, Rating & Settings  
+- 🧭 Navigation using OpenStreetMap  
+- 📊 Dashboard Analytics (Firebase + MPAndroidChart)  
+- 👤 Profile, Rating, Privacy & Settings  
 
-LogiTrack aims to eliminate manual communication gaps, reduce delays, and bring **transparency, accuracy, and real-time insights** to the logistics workflow.
+The goal is to deliver **transparency, automation, real-time visibility, and smoother coordination** in logistics operations.
 
 ---
 
-## 🚀 **App Preview**
+<!-- ========================================================= -->
+<!-- 🚀 APP PREVIEW -->
+<!-- ========================================================= -->
 
-> *(Attach screenshots inside this gallery)*
+## 🚀 App Preview
 
 <p align="center">
-  <img src="https://drive.google.com/drive/home" width="240">
-  <img src="YOUR_IMAGE" width="240">
-  <img src="YOUR_IMAGE" width="240">
+  <img src="YOUR_SCREENSHOT_1.png" width="220"/>
+  <img src="YOUR_SCREENSHOT_2.png" width="220"/>
+  <img src="YOUR_SCREENSHOT_3.png" width="220"/>
 </p>
 
 ---
 
-## 🧩 **Features**
+<!-- ========================================================= -->
+<!-- 🧩 FEATURES -->
+<!-- ========================================================= -->
 
-### 🔐 **Google Authentication**
-- One-tap secure login  
-- Powered by FirebaseAuth  
-- No password required  
-- Ultra-fast onboarding  
+## 🧩 Features
+
+### 🔐 Google Authentication
+- One-tap login  
+- No passwords  
+- Fully secured by Firebase Auth  
 
 ---
 
-### 👥 **Dual Role System**
+### 👥 Dual Role System
+
 | Logistic Owner | Vehicle Owner |
 |----------------|----------------|
-| Add loads | Search loads |
-| Verify loads | Add to cart |
-| View dashboard | View routes |
-| Manage shipments | Contact owner |
+| Add Loads | Search Loads |
+| Verify Loads | Add to Cart |
+| Dashboard Analytics | View Routes |
+| Shipment Management | Contact Owners |
 
 ---
 
-### 📦 **Load Management**
-- Add load name, price, amount  
-- Enter source & destination states  
-- Select date  
-- Contact number included  
-- Loads appear in card format  
+### 📦 Load Management
+- Load type  
+- Price  
+- Date  
+- Contact  
+- Source → Destination  
+- Verified Card UI  
 
 ---
 
-### 🧭 **Navigation (OpenStreetMap)**
-- Step-by-step routing  
-- Distance + time estimation  
-- Clean map UI  
-- Perfect for drivers  
+### 🧭 Navigation (OSM)
+- Step-by-step guidance  
+- Clean interactive map  
+- Distance & time estimation  
 
 ---
 
-### 📊 **Dashboard Analytics**
-- Line graph showing loads per day  
-- Real-time Firebase updates  
-- Helps logistic owners track business trends  
+### 📊 Dashboard Analytics
+- Real-time Firestore syncing  
+- Line chart for daily loads  
+- Business insights in one view  
 
 ---
 
-### 👤 **Profile & Settings**
-- Personal info  
-- Rating system  
+### 👤 Profile & Settings
+- Update info  
+- Ratings  
+- Notifications  
 - Privacy controls  
-- App settings  
 
 ---
 
-## 🛠 **Tech Stack**
+<!-- ========================================================= -->
+<!-- 🛠 TECH STACK -->
+<!-- ========================================================= -->
 
-| Layer | Technology |
-|------|------------|
+## 🛠 Tech Stack
+
+| Category | Technology |
+|---------|------------|
 | Language | Kotlin |
 | UI | XML |
 | Authentication | Firebase Auth |
-| Database | Firestore |
-| Maps | OSMDroid / OpenStreetMap |
+| Backend | Firestore |
+| Maps | OSM / OSMDroid |
 | Charts | MPAndroidChart |
-| Architecture | MVVM pattern |
+| Architecture | MVVM |
 
 ---
+
+<!-- ========================================================= -->
+<!-- 📁 PROJECT STRUCTURE -->
+<!-- ========================================================= -->
+
+
 
 ## 📁 **Project Structure**
 
@@ -124,10 +162,16 @@ LogiTrack aims to eliminate manual communication gaps, reduce delays, and bring 
 └── utils/ # Constants, helpers
 ---
 
-## 📸 **Screenshots**
+---
+
+<!-- ========================================================= -->
+<!-- 📸 SCREENSHOTS -->
+<!-- ========================================================= -->
+
+## 📸 Screenshots
 
 <details>
-  <summary>🔵 Role Selection & Login</summary>
+  <summary>🔵 Login & Role Selection</summary>
   <img src="YOUR_IMAGE" width="300"/>
 </details>
 
@@ -147,38 +191,57 @@ LogiTrack aims to eliminate manual communication gaps, reduce delays, and bring 
 </details>
 
 <details>
-  <summary>🛒 Cart & Connection</summary>
+  <summary>🛒 Cart Page</summary>
   <img src="YOUR_IMAGE" width="300"/>
 </details>
 
 ---
 
-## 🧪 **Testing**
-- Unit testing for Kotlin functions  
-- Firebase authentication validation  
-- Map routing correctness  
-- UI responsiveness across devices  
-- Manual + automated UI tests  
+<!-- ========================================================= -->
+<!-- 🧪 TESTING -->
+<!-- ========================================================= -->
+
+## 🧪 Testing
+
+- Unit tests on core Kotlin functions  
+- Authentication validation  
+- Map routing test cases  
+- UI testing across resolutions  
+- Firebase integration tests  
 
 ---
 
-## 🔮 **Future Enhancements**
-- AI-based route prediction  
-- IoT telematics for live vehicle health  
-- In-app payments  
-- Load bidding system  
-- Admin verification panel  
-- Multi-language support  
+<!-- ========================================================= -->
+<!-- 🔮 FUTURE ENHANCEMENTS -->
+<!-- ========================================================= -->
+
+## 🔮 Future Enhancements
+
+- 🧠 AI-based route prediction  
+- 🚚 IoT integration for vehicle health  
+- 💸 In-app payments  
+- 💬 In-app chat system  
+- 🗃 Admin verification panel  
+- 🌍 Multi-language support  
 
 ---
 
-## 🤝 **Contributing**
-Pull requests are welcome!  
-Open an issue for feature requests or bugs.
+<!-- ========================================================= -->
+<!-- 🤝 CONTRIBUTING -->
+<!-- ========================================================= -->
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to fork this repo & submit PRs.
 
 ---
 
-## 👨‍💻 **Developer**
+<!-- ========================================================= -->
+<!-- 👨‍💻 DEVELOPER -->
+<!-- ========================================================= -->
+
+## 👨‍💻 Developer
 
 **Md Ahmad Raja**  
 Android Developer | Kotlin | Firebase | UI/UX  
@@ -188,6 +251,13 @@ Android Developer | Kotlin | Firebase | UI/UX
 
 ---
 
-## ⭐ **Support the Project**
+<p align="center">
+  ⭐ If you like this project, consider giving it a star! ⭐
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/waxVImv.png" width="100%" />
+</p>
+
 If you like this project, please give it a **⭐ star** — it helps a lot!
 
